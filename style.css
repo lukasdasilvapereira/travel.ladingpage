@@ -26,13 +26,15 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 
 .header-section {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgba(0, 0, 7, 0.89);
+    /*background-color: #225e69;*/
+    background-color: #031013;
 }
 
 .nav-section {
@@ -49,4 +51,74 @@ body {
 
 .tit {
     color: orange;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 40px;
+    background-color: rgba(0, 0, 0, 0.623);
+    min-height: 100vh;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    max-width: 400px;
+}
+
+.hero-section h2 {
+    color: lightgray;
+    font-family: "Arial";
+    font-size: 1.7em;
+}
+
+.galera .desconto {
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+}
+
+.galera .voucher {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.travel {
+    color: orangered;
+}
+
+.space {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.seta {
+    background-color: orange;
+    padding: 12px 18px 15px 20px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.seta:hover {
+    background-color: orangered;
+}
+
+.descricao {
+    color: lightgray;
+}
+
+.brands {
+    display: flex;
+    gap: 20px;
+}
+
+.brands i {
+    font-size: 1.5em;
 }
