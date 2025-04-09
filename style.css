@@ -60,7 +60,7 @@ body {
     gap: 40px;
     background-color: rgba(0, 0, 0, 0.623);
     min-height: 100vh;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 h1 {
@@ -121,4 +121,82 @@ h1 {
 
 .brands i {
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 1290px) {
+    h1 {
+        font-size: 3em;
+    }
+    input {
+        max-width: 300px;
+    }
+
+    .seta {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .title {
+        font-size: 1.4em;
+        padding: 10px 50px;
+    }
+    .nav-items {
+        font-size: 0.8em;
+        padding: 0px 0px 0px 20px;
+    }
+
+    input {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 794px) {
+   .nav-items {
+    padding: 20px 80px;
+   }
+
+   .nav-links {
+    font-size: 1.3em;
+   }
+
+   .nav-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 120px;
+    transform: translate(-90px, 0px);
+   }
+
+    .open {
+        display: flex;
+        position: absolute;
+        color: white;
+        right: 10px;
+        font-size: 1.2em;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .close {
+        display: flex;
+        position: absolute;
+        color: white;
+        right: 50px;
+        padding: 60px;
+        font-size: 1.5em;
+    }
 }
